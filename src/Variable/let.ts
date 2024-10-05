@@ -44,7 +44,9 @@ let identifier: string | number = 101;  // Can be either string or number
 identifier = "ID_101";
 
 // object
+// @ts-ignore
 let person: { name: string; age: number } = {
   name: "Kiran",
   age: 25
 };
+console.log(person)
